@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-serif: Georgia, 'Times New Roman', serif;
+}
+
+:root { --background: #fff5f1; --foreground: #442c28; }
+* { box-sizing: border-box; }
+html { background: #fff5f1; }
+body { margin: 0; background: var(--background); color: var(--foreground); }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #ffd6c8; color: #442c28; }
