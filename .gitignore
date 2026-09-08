@@ -33,6 +33,11 @@ yarn-error.log*
 .vercel
 next-env.d.ts
 /dist/
+/dist-vercel/
+/site.tar.gz
 /.wrangler/
 /outputs/
 /work/
+
+.vercel
+.env*
